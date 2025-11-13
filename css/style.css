@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.table th,
+.table td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+tr.completed td {
+  text-decoration: line-through;
+  color: gray;
+}
+
+tr.due-soon td {
+  background-color: #fff7e6;
+}
+
+tr.overdue td {
+  background-color: #ffe6e6;
+}
+
+footer {
+  opacity: 0.85;
+  transition: opacity 0.3s ease-in-out;
+}
+
+footer:hover {
+  opacity: 1;
+}
