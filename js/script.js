@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const progressPercentEl = document.getElementById("progressPercent");
   const progressBarEl = document.getElementById("progressBar");
 
-  // 🔽 Tambahan filter & delete all
+  //  Tambahan filter & delete all
   const filterSelect = document.getElementById("filterSelect");
   const deleteAllBtn = document.getElementById("deleteAllBtn");
 
